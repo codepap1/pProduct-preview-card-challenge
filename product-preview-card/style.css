@@ -1,0 +1,100 @@
+* {
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+}
+img {
+  width: 1fr;
+  height: 450px;
+  border-radius: .65em 0 0 .65em;
+}
+h1 {
+  
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 2.3em;
+  margin-bottom: .8em;
+  color: hsl(212, 21%, 14%)
+}
+h3 {
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  width: 100px;
+  color: hsl(228, 12%, 48%);
+
+}
+.main-p {
+  color: hsl(228, 12%, 48%);
+  margin-bottom: 1.7em;
+
+}
+.price {
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 2.3em;
+  color: hsl(158, 36%, 37%);
+  margin-bottom: 1em;
+  
+}
+del {
+  color: hsl(228, 12%, 48%);
+  margin-left: 1em;
+}
+button {
+  border: none;
+  width: 230px;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  cursor: pointer;
+  transition: .3s;
+}
+button:hover {
+  opacity: .8;
+}
+button:active {
+  background-color: hsl(158, 39%, 19%);
+  opacity: 1;
+}
+svg {
+  margin-right: .5em;
+}
+.card {
+  width: 600px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  border-radius: .65em;
+  background-color:  hsl(0, 0%, 100%);
+  
+}
+.left-container {
+  width: 1fr;
+
+}
+.right-container {
+  width: 1fr;
+  margin-left: 2em;
+  margin-right: 1.3em;
+  
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
