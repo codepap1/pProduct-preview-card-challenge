@@ -1,1 +1,1 @@
-# pProduct-preview-card-challenge
+# Product-preview-card-challenge
